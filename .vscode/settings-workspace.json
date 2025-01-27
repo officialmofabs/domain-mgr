@@ -1,0 +1,67 @@
+{
+	"folders": [
+		{
+			"name": "mysmartspace",
+			"path": "."
+		}
+  ],
+  "extensions": {
+    "recommendations": [
+      "msjsdiag.debugger-for-chrome",
+      "dbaeumer.vscode-eslint",
+      "github repository manager",
+      "github.vscode-pull-request-github",
+      "eamodio.gitlens",
+      "visualstudioexptteam.vscodeintellicode",
+      "davidanson.vscode-markdownlint",
+      "googlecloudtools.cloudcode",
+      "editorconfig.editorconfig",
+      "pkief.material-icon-theme"
+      "gitbook",
+    ]
+  },
+	"settings": {
+    "editor.tabSize": 2,
+    "editor.fontSize": 16,
+    "debug.console.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": false,
+    "eslint.validate": [
+      "typescript",
+      "typescriptreact",
+      "javascript",
+      "javascriptreact"
+    ],
+    "eslint.enable": true,
+    "eslint.packageManager": "yarn",
+    "eslint.run": "onType",
+    "editor.codeActionsOnSave": {
+    
+      "source.fixAll.eslint": true
+    },
+    "[javascript]": {
+       "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "[typescript]": {
+       "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": false, 
+        "source.fixAll.eslint": true
+      }
+    },
+    "[typescriptreact]": {
+
+    }    
+	

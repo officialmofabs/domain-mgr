@@ -1,0 +1,11 @@
+{
+    "name": "mysmartspace-officialmofabs",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "development",
+    "workspaceFolder": "/workspace",
+    "extensions": [
+        "felixfbecker.php-pack",
+        "cweijan.vscode-mysql-client2"
+    ],
+    "appPort": [9080]
+}
